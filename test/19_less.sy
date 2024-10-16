@@ -1,0 +1,15 @@
+int a;
+int b;
+int main(){
+	a = 9;
+	b = 12;
+	if (a < b){
+		print(1);
+	}
+	else{
+		print(0);
+	}
+    return 0;
+}
+
+// expected result: 1

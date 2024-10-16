@@ -1,0 +1,15 @@
+int a;
+int b;
+int main(){
+	a = 1;
+    b = 0;
+    if(a && b){
+        print(a);
+    }
+    else{
+        print(b);
+    }
+    return 0;
+}
+
+// expected result: 0

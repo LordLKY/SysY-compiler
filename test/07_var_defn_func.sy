@@ -1,0 +1,10 @@
+int defn(){
+    return 4;
+}
+
+void main(){
+    int a=defn();
+    print(a);
+}
+
+// expected result: 4

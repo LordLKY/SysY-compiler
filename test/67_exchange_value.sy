@@ -1,0 +1,23 @@
+int n;
+
+int main()
+{
+    //newline=10;
+    int i;
+    int j;
+    //m = 1478;
+    //int t;
+    i=4;
+    j=20;
+    int temp;
+    temp=i;
+    i=j;
+    j=temp;
+
+    print(i);
+    print(j);
+    
+    return 0;
+}
+
+// expected result: 20 4

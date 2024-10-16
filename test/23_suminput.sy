@@ -1,0 +1,22 @@
+int n;
+int a[10];
+int main()
+{
+	n = 10;
+	if (n > 10){
+        return 1;
+    }
+	int s;
+	int i;
+	i = 0;
+	s = i;
+	while (i < n) { 
+	  a[i] = i;
+	  s = s + a[i]; 
+	  i=i+1;
+	} 
+	print(s);
+	return 0;
+}
+
+// expected result: 45

@@ -1,0 +1,14 @@
+int a;
+int func(int p){
+	p = p - 1;
+	return p;
+}
+int main(){
+	int b;
+	a = 10;
+	b = func(a);
+	print(b);
+    return 0;
+}
+
+// expected result: 9

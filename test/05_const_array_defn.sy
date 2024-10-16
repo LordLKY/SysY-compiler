@@ -1,0 +1,8 @@
+const int a[5]={0,1,2,3,4};
+
+int main(){
+    print(a[4]);
+    return 0;
+}
+
+// expected result: 4

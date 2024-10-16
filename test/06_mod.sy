@@ -1,0 +1,12 @@
+int a;
+int b;
+int main(){
+	a = 10;
+	b = 3;
+	int c;
+	c = a % b;
+	print(c);
+    return 0;
+}
+
+// expected result: 1

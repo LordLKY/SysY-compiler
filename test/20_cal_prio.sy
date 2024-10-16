@@ -1,0 +1,13 @@
+int a;
+int b;
+int c;
+void main(){
+	a = 1;
+	b = 2;
+	c = 3;
+	int d;
+	d = a+b*c;
+	print(d);
+}
+
+// expected result: 7

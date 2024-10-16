@@ -1,0 +1,11 @@
+int main () {
+    int a;
+    int b;
+    a = -2;
+    b = 1;
+    a = a - -b + -(a + b) % -(a - b);
+    print(a);
+    return 0;
+}
+
+// expected result: 0

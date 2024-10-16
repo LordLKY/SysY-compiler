@@ -1,0 +1,9 @@
+int main () {
+    int a;
+    a = 12;
+    int t;
+    print(a);
+    return 0;
+}
+
+// expected result: 12

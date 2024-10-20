@@ -6,7 +6,7 @@ This is a compiler called SysYVM for SysY, which is a C-like language supporting
 
 SysYVM is written in C++ (about 5K lines of code). The frontend is built with the help of flex & bison. A LLVM-style IR, which is in Static Single Assignment (SSA) form, serves as midend. On that base, several optimizations are implemented. The backend is a self-defined virtual machine which is based on stacks (so SysYVM is more like a interpreter than a compiler). A low-level language called LIR is designed and runs on the virtual machine. The framework of SysYVM is shown as follows:
 
-
+![SysYVM framework](https://github.com/LordLKY/SysY-compiler/blob/main/asset/SysYVM%20framework.png)
 
 Although SysYVM is not a perfect compiler (compared to those won prize in compiler-design competitions), it is a good reference for those "compiler-beginner" who wants to implement a toy compiler.
 
@@ -29,7 +29,7 @@ or you can dowload [SysYVM.exe](https://github.com/LordLKY/SysY-compiler/blob/ma
 ## Usage
 
 ```bash
-SysYVM <filename> [options] 
+SysYVM [filename] [options] 
 ```
 
 ```

@@ -48,6 +48,8 @@ options:
     do simple profiling
 ```
 
+As mentioned before, SysYVM runs on a virtual machine, so it will show output of the program directly without any file output. Theoretically, SysYVM can run all the machine or system as long as [Requirement](https://github.com/LordLKY/SysY-compiler?tab=readme-ov-file#requirement) is satisfied (flex instead of win-flex is also okay, but may have some tiny bugs).
+
 ## Test
 
 The ./test folder contains some test cases. And the details of profiling result on those cases can be found [here](https://github.com/LordLKY/SysY-compiler/blob/main/Doc/profiling_results.xlsx). SysYVM can pass all the cases and achieves obvious optmization.
@@ -82,4 +84,4 @@ Most of the optimization are based on SSA form, which is more effcient than trad
 The detail of LIR & VM can be found in [this document](https://github.com/LordLKY/SysY-compiler/blob/main/Doc/SysY%20LIR.docx).
 
 
-There more details about SysYVM in ./Doc.
+There're more details about SysYVM in ./Doc.
